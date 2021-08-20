@@ -1,14 +1,24 @@
 .foto{
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
+    z-index: 1;
+    padding: 10px;
+    background-color: #B7E3CC;
+    float: left;
+    
 }
 
 .cabeçalho{
-    text-align: center;
+    z-index: 2;
 }
+
+h3.cabeçalho, h1.cabeçalho {
+    margin-bottom: 10px;
+}
+
+h4.cabeçalho, h5.cabeçalho {
+    margin-left: 240px;
+    margin-top: 40px;
+    }
 
 body {
     background-color: #DEE2FF;
@@ -33,12 +43,27 @@ div {
 
 h3.cabeçalho{
     margin-bottom: -20px;
+    margin-left: 100px;
 }
 
 ol li:hover{
-    background-color:greenyellow;
+    background-color:#B7E3CC;
 }
 
 ol li:active{
     color:#DEE2FF;
+}
+
+.skills, .form, .exp, .redes, p, a{
+    margin-left: 15px;
+}
+
+a:hover{
+    background-color: #DEE2FF;
+}
+
+.sumario {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
