@@ -2,7 +2,7 @@
     border-radius: 50%;
     z-index: 1;
     padding: 10px;
-    background-color: #B7E3CC;
+    background-color: #B0C7BD;
     float: left;
     
 }
@@ -13,6 +13,7 @@
 
 h3.cabeçalho, h1.cabeçalho {
     margin-bottom: 10px;
+    
 }
 
 h4.cabeçalho, h5.cabeçalho {
@@ -43,8 +44,8 @@ div {
 
 h3.cabeçalho{
     margin-bottom: -20px;
-    margin-left: 100px;
-}
+    margin-left: 285px;
+    }
 
 ol li:hover{
     background-color:#B7E3CC;
